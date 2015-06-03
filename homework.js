@@ -92,9 +92,7 @@ var reverseStr = function(str) {
   return str.split("").reverse().join("");
 };
 
-var reverseStr = function(str) {
-  return str.split("").concat arr.reverse().concat arr.join("");
-};
+
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
@@ -390,30 +388,38 @@ function isVowel(char){
 
 function rovarspraket(phrase){
     "use strict";
-    function translate()
+    function translate() {
+
+    }
+
 }
 
 // ---------------------
 // Define a function sum() and a function multiply() that sums and multiplies (respectively) all the numbers in an array of numbers. For example, sum([1,2,3,4]) should return 10, and multiply([1,2,3,4]) should return 24.
 // ---------------------
 
-function sum(){
+function sum(arr){
     "use strict";
-    //...
+    array.reduce(function(acc, curr) {
+      return acc + curr
+    })
 }
 
 function multiply(){
     "use strict";
-    //...
+    for (var i = 0; i < array.length; i++) {
+      return i * i++
+    }
 }
 
 // ---------------------
 // Define a function reverse() that computes the reversal of a string. For example, reverse("jag testar") should return the string "ratset gaj".
 // ---------------------
+var str = ["jag testar"]
 
-function reverse(){
+function reverse(str){
     "use strict";
-    //...
+    return str.split("").reverse().join("");
 }
 
 // ---------------------
@@ -422,7 +428,13 @@ function reverse(){
 
 function findLongestWord(words){
     "use strict";
-    //...
+    long = 0
+    str = [""]
+    arr.forEach(function () {
+    if (long < str.length) {
+      long = str
+    }
+  })
 }
 
 // ---------------------
@@ -431,7 +443,14 @@ function findLongestWord(words){
 
 function filterLongWords(words, i){
     "use strict";
-    //...
+    long = 5
+    str = [""]
+    arr.filter(function () {
+    if (long < str.length) {
+      
+    }
+  })
+}
 }
 
 // ---------------------
